@@ -1,4 +1,5 @@
 import Education from "./components/Education"
+import Experience from "./components/Experience"
 import GeneralInfo from "./components/GeneralInfo"
 
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <GeneralInfo />
       <Education />
+      <Experience />
     </>
   )
 }

@@ -13,7 +13,6 @@ export default function Education() {
 
     function handleEdit(e) {
         setEdit(true)
-        
     }
 
     return (
