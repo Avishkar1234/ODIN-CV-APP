@@ -1,0 +1,106 @@
+/* ----------------------------------
+   GENERAL LAYOUT
+---------------------------------- */
+
+.general-form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px 25px;
+  background: rgba(255, 255, 255, 0.15);  /* transparent white */
+  backdrop-filter: blur(5px);
+  border-radius: 12px;
+  color: #003366; /* dark blue text */
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ----------------------------------
+   FORM INPUT ROWS (when editing)
+---------------------------------- */
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-row label {
+  font-weight: bold;
+  color: #002244;
+}
+
+.form-row input,
+.form-row select {
+  padding: 8px 10px;
+  border: 1px solid #88aacc;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 14px;
+}
+
+.form-row input:focus,
+.form-row select:focus {
+  outline: none;
+  border-color: #0055cc;
+  box-shadow: 0 0 3px rgba(0, 85, 204, 0.4);
+}
+
+/* ----------------------------------
+   PHONE INPUT FLEX ROW
+---------------------------------- */
+
+.phone-row {
+  display: flex;
+  gap: 10px;
+}
+
+.phone-row select {
+  width: 80px;
+}
+
+/* ----------------------------------
+   DISPLAY MODE (not editing)
+---------------------------------- */
+
+.row {
+  display: flex;
+  gap: 8px;
+  font-size: 15px;
+}
+
+.label {
+  font-weight: bold;
+  color: #002244;
+}
+
+.value {
+  color: #003366;
+}
+
+/* ----------------------------------
+   BUTTONS
+---------------------------------- */
+
+button {
+  width: 100px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #0077ff;
+  color: white;
+  font-weight: bold;
+  align-self: flex-start;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #005fcc;
+}
+
+button:active {
+  background-color: #004499;
+}
